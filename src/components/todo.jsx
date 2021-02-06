@@ -10,22 +10,7 @@ import Modal from "./modal"
 class Todo extends React.Component {
     state = {
         todos: [
-            {
-                id: 1,
-                tittle: "This is a Todo tittle",
-                description: "Todo description",
-                time: new Date(),
-                isSelected: false,
-                isCompleted: false,
-            },
-            {
-                id: 2,
-                tittle: "This is a Todo tittle",
-                description: "Todo description",
-                time: new Date(),
-                isSelected: false,
-                isCompleted: false,
-            },
+            
         ],
         listView: true,
         searchTerm: '',
